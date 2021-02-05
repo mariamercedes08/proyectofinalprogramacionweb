@@ -33,7 +33,7 @@
          $_SESSION['user']   = $data['usuario'];
          $_SESSION['rol']    = $data['rol'];
 
-         header('location: gaaa/');
+         header('location: procedimiento/');
 
        }else{
          $alert = 'usuario y contraseña incorrectos';
